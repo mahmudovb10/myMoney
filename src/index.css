@@ -4,3 +4,35 @@
 .input {
   outline: none;
 }
+
+.profileIcon {
+  position: relative;
+  left: 90rem;
+  bottom: 1rem;
+}
+
+.addPrice {
+  position: relative;
+  left: 87.3rem;
+  top: 3.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group input {
+  width: 250px;
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
