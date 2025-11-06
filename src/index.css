@@ -51,3 +51,32 @@ body {
   bottom: 2.3rem;
   z-index: 2;
 }
+
+.photo {
+  width: 22rem;
+  height: 22rem;
+  border-radius: 0.7rem;
+  object-fit: cover;
+}
+
+.resCard {
+  height: 25rem;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+.cardTitle {
+  position: relative;
+  top: 1rem;
+}
+
+.cardDesc {
+  position: relative;
+  top: 0.5rem;
+}
+
+.pricBtn {
+  position: relative;
+  bottom: 18rem;
+  right: 2rem;
+}
