@@ -1,6 +1,15 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+/* boldonse-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Boldonse";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/boldonse-v1-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 * {
   box-sizing: border-box;
 }
@@ -16,13 +25,12 @@ body {
 .profileIcon {
   position: relative;
   left: 90rem;
-  bottom: 1rem;
 }
 
 .addPrice {
   position: relative;
   left: 87.3rem;
-  top: 3.5rem;
+  top: 4.5rem;
 }
 
 .form {
@@ -79,4 +87,11 @@ body {
   position: relative;
   bottom: 18rem;
   right: 2rem;
+}
+
+.mainTitle {
+  position: relative;
+  left: 2rem;
+  top: 2rem;
+  font-family: "Boldonse";
 }
